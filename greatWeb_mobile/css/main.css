@@ -1,0 +1,124 @@
+:root {
+    --gray: #30343D;
+    --yellow: #F8F15A;
+    --white: #FFFFFF;
+}    
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Inter", "sans-serif";
+    font-weight: 400;
+    font-size: 12px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+    
+.bla-bla-bla hr {
+    margin: 44px 105px 44px;
+}
+
+.bla-bla-bla p {
+    font-size: 12px;
+    font-weight: 400;
+    width: 240px;
+    margin-left: 48px;
+}
+
+.bla-bla-bla h4 {
+    margin: 69px 46px 39px;
+}
+
+.bla-bla-bla ol {
+    padding: 0 20px 0 8px;
+}
+
+li {
+    margin-bottom: 40px;
+    list-style: none;
+}
+
+.a {
+    background: url(../images/01..svg) no-repeat;
+    padding-left: 45px;
+}
+
+.b {
+    background: url(../images/02..svg) no-repeat;
+    padding-left: 45px;
+}
+
+.c {
+    background: url(../images/03..svg) no-repeat;
+    padding-left: 45px;
+}
+
+.d {
+    background: url(../images/04..svg) no-repeat;
+    padding-left: 45px;
+}
+
+.e {
+    background: url(../images/05..svg) no-repeat;
+    padding-left: 45px;
+}
+
+h5 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 60px;
+}
+
+.landing p, .multi-page p, .shop p {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.slider {
+    height: 430px;
+    width: 475px;
+    background: var(--gray);
+    margin-left: -77px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.slider img {
+    margin: 30px auto;
+}
+
+.slider p {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--yellow);
+    letter-spacing: 2px;
+    margin: 0 100px 16px;
+}
+
+.slider h6 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.slider button {
+    width: 242px;
+    height: 57px;
+    border-radius: 50px;
+    background: var(--yellow);
+    border: none;
+    font-family: "Inter", "sans-serif";
+    font-size: 16px;
+    font-weight: 500;
+    margin: 30px 50px 28px;
+}

@@ -1,0 +1,194 @@
+:root {
+    --gray: #30343D;
+    --yellow: #F8F15A;
+    --white: #FFFFFF;
+}    
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Inter", "sans-serif";
+    font-weight: 400;
+    font-size: 12px;
+}
+
+header {
+    height: 665px;
+    margin: 0px auto;
+    background: var(--gray);
+    display: flex;
+    justify-content: center;
+}
+
+.container__flex {
+    width: 320px;
+    position: relative;
+
+}
+
+.header__logo {
+    height: 247px;
+    margin: 52px auto 52px;
+    
+}
+
+.header__logo img {
+    height: 247px;
+    margin: 52px auto 52px;
+    position: absolute;
+    left: 12%;
+    top: 7%;
+    z-index: 1;
+}
+
+.header__slogan p {
+    color: var(--yellow);
+    font-size: 13px;
+    font-family: "Inter", "sans-serif"; 
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 33px 15px 0;
+    text-align: center;
+}
+
+h1 {
+    color: var(--white);
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 2;
+    position: absolute;
+    top: 32%;
+    left: 44%;
+}
+
+h2 {
+    color: var(--white);
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    padding: 16px 0 84px 0;
+}
+
+h3 {
+    color: var(--yellow);
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+  
+.header__links a {
+    color: var(--white);
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 18px;
+    text-decoration: none;
+    border-bottom: solid 2px var(--white);
+    letter-spacing: 2px;
+    margin-left: 68px;
+}
+
+.box {
+    margin-top: 17%;
+    margin-left: -4%;
+}
+
+.box a {
+    padding: 0px;
+    border: none;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+footer {
+    height: 832px;
+    margin: 0px auto;
+    background: var(--gray); 
+    display: flex;
+    justify-content: center;
+}
+
+.footer__logo h3 {
+    margin: 50px 0 38px;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.footer__logo h2 {
+    margin-bottom: 33px;
+    padding: 0;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.footer__logo p {
+    color: var(--yellow);
+    font-family: "Inter", "sans-serif"; 
+    letter-spacing: 3px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 16px;
+    margin-bottom: 83px;
+}
+
+.footer__contacts {
+    width: 73%;
+    margin: 0 auto 0;
+    text-align: center;
+}
+
+.footer__contacts p {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 38px;
+    color: var(--white);
+    
+}
+ 
+.footer__contacts .phone {
+    background: url(../images/phone.svg) no-repeat;
+    height: 31px;
+    padding: 2px 0 0 38px;
+}
+
+.footer__contacts .mail {
+    background: url(../images/mail.svg) no-repeat;
+    height: 31px;
+    padding: 2px 0 0 38px;
+}
+
+.footer__social p {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 77px auto 28px;
+    color: var(--white);
+    text-align: center;
+}
+
+.footer__social .box {
+    margin: 0 30px 0 30px; 
+}
+
+button {
+    width: 242px;
+    height: 57px;
+    border-radius: 50px;
+    background: var(--white);
+    border: none;
+    font-family: "Inter", "sans-serif";
+    font-size: 16px;
+    font-weight: 500;
+    margin: 55px 39px
+}
+
+p.fucking {
+    font-family: Inter, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--white);
+    margin: 0px auto 28px
+}

@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+h1 {
+    color: #858585;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header > .container {
+    padding: 40px 20px;
+}
+header .burgerIcon {
+    width: 26px;
+    display: none;
+}
+header .container .menu a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #94949c;
+    margin: 0px 20px;
+}
+header .container .menu a:hover,
+header .container .menu a.active {
+    color: #dfa52b;
+    font-weight: 700;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #dfa52b;    
+}
+header form div {
+    justify-content: center;
+    padding: 10px 15px;
+    border: 1px solid #dfa52b;
+    border-radius: 50px;
+}
+
+header form div input[type=text]{
+    border: none;
+}
+
+header form div input[type=submit]{
+    background: url("images/glass.png");
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+header form div input[type=submit]:hover {
+    cursor: pointer;
+}
+header .cart div p {
+    font-size: 16px;
+    color: #94949c;
+}
+header .cart div a {
+    font-size: 14px;
+    color: #dfa52b;
+}
+.cart div {
+    margin: 10px;
+}
+header div img {
+    margin-left: 10px;
+}
+footer {
+    background-color: #4b4b4e;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.logo {
+    font-size: 38px;
+    color:rgb(248, 248, 248);
+    font-weight: bold;
+}
+footer .container figcaption {
+    font-size: 12px;
+    margin-top: 25px;
+    margin-left: 5px;
+    color:rgb(255, 255, 255);
+}
+footer .container {
+    align-items: flex-start;
+    padding: 20px;
+}
+footer .left {
+    align-items: flex-start;
+}
+footer .left nav {
+    margin-left: 100px;
+}
+footer .left nav a {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+footer .left nav a:hover,
+footer .left nav a.active {
+    color: #dfa52b;
+}
+footer .right form div {
+    justify-content: left;
+    width: 458px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+footer .right form input[type="text"] {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 95%;
+    background: none;
+    border: none;
+}
+footer .right form input[type="submit"] {
+    width: 20px;
+    height: 20px;
+    background: url(images/lupa.png) no-repeat;
+    background-size: cover;
+    border: none;
+}
+footer .right > div {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-top: 28px;
+}
+footer .right .box {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    display: inline-block;
+}
+footer .right .insta {
+    background: url(images/instagram.png) no-repeat;
+    background-size: cover;
+}
+footer .right .insta:hover {
+    background: url(images/instagramHover\ .png) no-repeat;
+    background-size: cover;
+}
+footer .right .tg {
+    background: url(images/telegram.png) no-repeat;
+    background-size: cover;
+}
+footer .right .tg:hover {
+    background: url(images/tgHover.png) no-repeat;
+    background-size: cover;
+}
+footer .right .vk {
+    background: url(images/vkontakte.png) no-repeat;
+    background-size: cover;
+}
+footer .right .vk:hover {
+    background: url(images/vkHover.png) no-repeat;
+    background-size: cover;
+}
+footer .copyrights {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    margin-top: 60px;
+}

@@ -1,0 +1,124 @@
+/*
+>= 1200
+992 - 1199
+768 - 991
+576 - 768
+460 - 576
+414 - 460
+375 - 414
+328 - 375
+*/
+
+@media screen and (max-width: 1199px) {
+    form .d-flex {
+        width: 246px;
+    }
+    header form div input[type="text"] {
+        max-width: 148px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    form .d-flex {
+        width: 376px;
+    }
+    header .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    h1 {
+        margin-right: 35px;
+    }
+    footer .right form div {
+        width: 300px;
+    }
+    footer .left nav {
+        margin-left: 39px;
+    }
+    footer .right form div {
+        margin-top: 0px;
+    }
+    footer .right form div input[type="text"] {
+        width: 92%;
+    }
+    footer .copyrights {
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 767px) {
+    form .d-flex {
+        margin-top: 14px;
+        width: 333px;
+    }
+    header .container .menu a {
+        margin: 0px 14px;
+    }
+    footer .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    footer .left nav {
+        margin-left: 72px;
+    }
+}
+@media screen and (max-width: 575px) {
+    form .d-flex {
+        margin-top: 14px;
+        width: 375px;
+    }
+    header .container .menu a {
+        margin: 0px 16px;
+    }
+    footer .left nav {
+        margin-left: 66px;
+    }
+}
+@media screen and (max-width: 459px) {
+    header .container .menu a {
+        margin: 0px 10px;
+    }
+    footer .left {
+        width: 345px;
+    }
+    footer .left nav {
+        margin-left: 91px;
+    }
+}
+@media screen and (max-width: 413px) {
+    header .burgerIcon {
+        display: inline-block;
+    }
+    form .d-flex {
+        width: 300px;
+    }
+    header .container .menu {
+        display: none;
+    }
+}
+@media screen and (max-width: 375px) {
+    footer .left {
+        width: 261px;
+    }
+    footer .left nav {
+        margin-left: 20px;
+    }
+    header .container .menu a {
+        display: block;
+    }
+    header .burgerIcon {
+        margin-left: 110px;
+    }
+    header .container .menu {
+        display: none;
+    }
+    header .container .menu a {
+        text-align: center;
+        margin: 15px;
+    }
+    header .container .menu a:hover
+    {
+        border-bottom: none;
+        margin: 15px;
+        padding-bottom: 0px;
+    }
+}

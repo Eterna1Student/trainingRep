@@ -1,0 +1,231 @@
+.block1 {
+    justify-content: left;
+    align-items: flex-start;
+}
+.block1 .menu {
+    width: 150px;
+    margin-right: 29px;
+}
+.block1 .menu a {
+    display: block;
+    text-decoration: none;
+    color: #94949c;
+    font-size: 18px;
+    padding: 12px 25px;
+}
+
+.block1 .menu a:hover,
+.block1 .menu a.active {
+    color: #fff;
+    background-color: #dfa52b;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.block1 .items .sort {
+    margin-left: 60px;
+}
+
+.block1 .items .sort p {
+    font-size: 12px;
+    color: #000000;
+    margin-top: 14px;
+}
+
+.block1 .items .sort p a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    width: 50px;
+    background: url(./images/up-strelka.png)no-repeat;
+    background-position: 100% 50%;
+    background-size: 10px;
+}
+
+.block1 .items .sort p a:hover {
+    background: url(./images/down-strelka.png)no-repeat;
+    color: #dfa52b;
+    background-position: 100% 50%;
+    background-size: 10px;
+}
+
+.block1 .items .boxes {
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.block1 .items .box figure img {
+    width: 250px;
+}
+
+.boxes .box figure figcaption {
+    margin-left: 50px;
+    color: #94949c;
+    margin-top: 0px; 
+}
+
+figure figcaption p .prise {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.box figure .title {
+    margin-left: 50px;
+    color: #94949c;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.box button {
+    width: 100%;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    background: #dfa52b;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+.box button:hover {
+    cursor: pointer;
+    font-weight: 700;
+} 
+
+.block1 .items .pagination {
+    text-align: center;
+}
+
+.block1 .items .pagination img {
+    width: 11px;
+    justify-content: center;
+    margin: 0px;
+    cursor: pointer; 
+}
+
+.block1 .items .pagination img:hover {
+    width: 15px;
+    justify-content: center;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.block1 .items .pagination a {
+    text-decoration: none;
+    color: #94949c;
+    margin: 5px;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.block1 .items .pagination a:hover,
+.block1 .items .pagination a.active {
+    color: #dfa52b;
+    font-weight: 600;
+}
+
+.news h2, .advantages h2, .popular h2, .sub h2 {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    color: #5b5b61;
+}
+
+.news .box figure img {
+    width: 250px;
+}
+
+.advantages .adv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.advantages div {
+    align-self: center;
+}
+
+.advantages div p {
+    
+    font-size: 14px;
+    font-weight: 500;
+    color: #94949c;
+    max-width: 340px;
+}
+
+.advantages figure img {
+    width: 60px;
+
+}
+
+.advantages .adv .a {
+    display: inline-flex;
+}
+
+.advantages .adv .a figure {
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+}
+
+.advantages figure figcaption p {
+    text-align: center;
+    margin-top: 10px
+}
+
+.popular .box {
+    width: 250px;
+}
+
+.popular .box figure img {
+    width: 250px;
+}
+
+.sub h2 {
+    margin-bottom: 10px;
+}
+
+.sub p {
+    font-size: 20px;
+    text-align: center;
+    color: #5b5b61;
+}
+
+.container .sub form div {
+    display: flex;
+    justify-content: center;
+}
+
+.container .sub form div input {
+    border-radius: 25px;
+    padding: 10px 15px;
+    width: 245px;
+    margin: 10px;
+    font-weight: 300;
+}
+
+.container .sub form div input:hover {
+    cursor: pointer;
+}
+
+.container .sub form div input[type="email"] {
+    border: 1px solid #5b5b61;
+}
+
+.container .sub form div input[type="submit"] {
+    text-align: center;
+    background-color: #5b5b61;
+    color: #fff;
+    border: none;
+}
+
+.sub p:not(title) {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+
+
+
+

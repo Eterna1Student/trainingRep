@@ -1,0 +1,74 @@
+/*
+>= 1200
+992 - 1199
+768 - 991
+576 - 767
+460 - 575
+414 - 460
+375 - 414
+328 - 375
+*/
+
+@media screen and (max-width: 1199px) {
+
+    .container .news .boxes, .container .popular .boxes {
+        flex-wrap: wrap;
+        max-width: 749px;
+        justify-content: space-evenly;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    
+    .container .advantages .adv {
+        display: block;
+        text-align: center;
+    }   
+    .container .advantages div p {
+        max-width: 525px;
+        margin: 15px auto;   
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .container .block1 {
+        display: block;
+    }
+    .container .block1 .menu {
+        margin: 0px auto;
+    }
+    .container .block1 .menu a {
+        text-align: center;
+    }
+    .container .block1 .items .sort {
+        text-align: center;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    
+    .container .block1 .items .boxes {
+        justify-content: center;
+    }
+    .container .advantages .adv .a{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 413px) {
+
+    .container .sub form div {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .container .sub form div input {
+        margin: 5px;
+    }
+    .container .sub p:not(title) {
+        margin: 10px;
+    }
+}
