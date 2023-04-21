@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 768px;
+    margin: 0 auto;
+}
+
+.bg {
+    width: 100%;
+    height: 109px;
+    background-color: #EEEEF4;
+}
+
+.photo {
+    width: 102px;
+    height: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+    position: absolute;
+    left: 47%;
+    top: 59px;
+}
+
+img {
+    max-width: 102%;
+    max-height: 102%;
+    position: relative;
+}
+
+.fio {
+    display: block;
+    text-align: center;
+}
+
+h1 {
+    margin: 60px 0 10px;
+}
+
+small {
+    font-size: 20px;
+}
+
+.contact {
+    margin: 27px auto;
+    width: 97%;
+    border-top: 2px solid #DDDDDD;
+    border-bottom: 2px solid #DDDDDD;
+    padding: 10px 0 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact a {
+    padding: 0 33px 0;
+    color: #000;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+.line {
+    border-right: 1px solid #DDDDDD;
+}
+
+
+/* ===========================================================main============================================================ */
+
+
+
+.container__two {
+    width: 746px;
+    margin: 0 auto;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    padding: 15px;
+    display: block;
+}
+
+.table-left {
+    max-width: 50%;
+}
+
+.table-right {
+    max-width: 50%;
+    border-left: 2px solid #DDDDDD;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 38px;
+}
+
+p {
+    margin: 15px 0;
+    color: #666;
+}
+
+.table-right p {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 7px;
+}
+
+h3 {
+    font-size: 17px;
+    margin-top: 25px;
+}
+
+.link {
+    display: block;
+    margin: 12px 0 8px;
+    text-decoration-line: underline;
+    color: #666;
+}
+
+
+/* ===========================================================footer============================================================ */
+
+
+.footer__container {
+    display: flex;
+    border-top: 2px solid #DDDDDD;
+    border-bottom: 2px solid #DDDDDD;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    padding: 0 18px;
+}
+
+.footer__container h2 {
+    margin: 10px 0;
+}
